@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@300&family=PT+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@300&family=Oswald:wght@400;500&family=PT+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Libre+Bodoni:ital@1&family=Montserrat:wght@300&family=Oswald:wght@400;500&family=PT+Serif&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7e035eba5a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Koulen&family=Libre+Bodoni:ital@1&family=Montserrat:wght@300&family=Oswald:wght@400;500&family=PT+Serif&display=swap" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="win.css">
+</head>
+<body>
+  
+<nav>
+<a href="#" class="logo"><b>BUDAN</b></a>
+<ul class="list">
+    <li class="lop"><a href="#">ABOUT</a></li>
+    <li class="lop"><a href="#">PASSIONS</a></li>
+    <li class="lop"><a href="#">RESUME</a></li>
+    <li class="lop"><Button><a href="#">CONTACT ME</a></Button></li>
+    <li><i class="fas fa-bars"></i><i class="fas fa-times" id="pi"></i></li></li>
+</ul>
+
+
+
+
+</nav>
+<ul class="under">
+    <li>ABOUT</li>
+    <li>PASSIONS</li>
+    <li>RESUME</li>
+    <li><Button>CONTACT ME</Button></li>
+    
+</ul>
+<div class="container">
+    <div class="container-item">
+    <h3>Hi !</h3>
+    <h2>I'm Bababudan Suleman. <br> a Front-End developer</h2>
+    <p>Front-End developer based in Texas, USA <br>
+    I'am coding with a clean and beautiful problem <br> solving in mind
+    </p>
+    </div>
+    <div class="container-item">
+        <img src="undraw_developer_activity_re_39tg.svg" alt="">
+    </div>
+</div>
+<h1 class="pass"><span class="pollar">Additional</span> <span class="poll">Passions</span></h1>
+
+<div class="container1">
+    <div class="container-item1"><img src="undraw_mobile_development_re_wwsn.svg" alt=""><br><b>Front-End</b> Developer <br>(Sass, Bootstrap, Tailwind)</div>
+    <div class="container-item1"><img src="undraw_server_cluster_jwwq.svg" alt=""><br><b>Back-End</b> Developer <br> (NodeJS, Laravel, Codeigniter)</div>   
+    <div class="container-item1"><img src="undraw_modern_design_re_dlp8.svg" alt=""><br><b>UI/UX</b> Developer <br>(Figma, Zeplin, Adobe XD)</div>
+    
+</div>
+
+
+<footer>2020-2022 BUDAN. All rights reserved. <a href="#" style="color: blue;">CONTACT ME <a href="#"><i class="fab fa-instagram"></i></a></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-github"></i></a> <br>
+    If you have any questions or suggestions about my portflio, please feel free to submit them . Thank you </footer>
+
+    <script >
+
+var toggle = document.querySelector(".fas");
+var list = document.querySelector(".under");
+var pi = document.querySelector("#pi")
+
+
+toggle.addEventListener("click", function(){
+    list.classList.add('toggleList');
+    toggle.style.display = "none";
+    pi.style.display = "block";
+})
+pi.addEventListener("click", function(){
+    list.classList.remove('toggleList');
+    pi.style.display = "none";
+    toggle.style.display = "block"
+})
+
+
+    </script>
+
+
+</body>
+</html>
