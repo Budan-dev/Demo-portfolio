@@ -14,7 +14,7 @@
      <link rel="stylesheet" type="text/css" href="win.css">
 </head>
 <body>
-  
+ <!-- 
 <nav>
 <a href="#" class="logo"><b>BUDAN</b></a>
 <ul class="list">
@@ -81,7 +81,117 @@ pi.addEventListener("click", function(){
 
 
     </script>
+-->
+  
+    <nav>
+<a href="#" class="logo"><b>BUDAN</b></a>
 
+<ul class="list">
+    <li><a href="#">ABOUT</a></li>
+    <li ><a href="#">PASSIONS</a></li>
+    <li ><a href="#">RESUME</a></li>
+    <li ><Button><a href="#">CONTACT ME</a></Button></li>
+   
+</ul>
+<img src="bars-solid.svg" alt="menu" class="menu">
+<img src="xmark-solid.svg" alt="cancel" class="cancel">
+</nav>
+
+<div class="container">
+
+    <div class="container-item">
+        <h3>Hi ! </h3>
+    <h2>I'm Bababudan Suleman. <br> a Front-End developer</h2>
+    <p>Front-End developer based in Abuja, Nigeria <br>
+    I'am coding with a clean and beautiful problem <br> solving in mind
+    </p>
+    </div>
+
+    <div class="container-item" >
+        <img src="undraw_developer_activity_re_39tg.svg" alt="image">
+    </div>
+    
+</div>
+
+
+<h1 class="pass"><span class="pollar">Additional</span> <span class="poll">Passions</span></h1>
+
+<div class="container1">
+    <div class="container-item1"><img src="undraw_mobile_development_re_wwsn.svg" alt="undraw image"><br><b>Front-End</b> Developer <br>( Bootstrap, Tailwind)</div>
+    <div class="container-item1"><img src="undraw_server_cluster_jwwq.svg" alt="undraw image "><br><b>Back-End</b> Developer <br> (NodeJS, Laravel, Codeigniter)</div>   
+    <div class="container-item1"><img src="undraw_modern_design_re_dlp8.svg" alt="undraw image"><br><b>UI/UX</b> Developer <br>(Figma, Zeplin, Adobe XD)</div>
+    
+</div>
+
+<footer>2020-2022 BUDAN. All rights reserved. CONTACT ME  <a href="https://twitter.com/budan_"><i class="fab fa-twitter"></i></a>  <a href="https://github.com/Budan-dev"><i class="fab fa-github"></i></a> <br>
+    If you have any questions or suggestions about my portfolio, please feel free to submit them . Thank you </footer>
+
+
+<!--
+
+
+
+<div class="container">
+    <div class="container-item">
+    <h3>Hi !</h3>
+    <h2>I'm Bababudan Suleman. <br> a Front-End developer</h2>
+    <p>Front-End developer based in Texas, USA <br>
+    I'am coding with a clean and beautiful problem <br> solving in mind
+    </p>
+    </div>
+    <div class="container-item">
+        <img src="undraw_developer_activity_re_39tg.svg" alt="">
+    </div>
+</div>
+<h1 class="pass"><span class="pollar">Additional</span> <span class="poll">Passions</span></h1>
+
+<div class="container1">
+    <div class="container-item1"><img src="undraw_mobile_development_re_wwsn.svg" alt=""><br><b>Front-End</b> Developer <br>( Bootstrap, Tailwind)</div>
+    <div class="container-item1"><img src="undraw_server_cluster_jwwq.svg" alt=""><br><b>Back-End</b> Developer <br> (NodeJS, Laravel, Codeigniter)</div>   
+    <div class="container-item1"><img src="undraw_modern_design_re_dlp8.svg" alt=""><br><b>UI/UX</b> Developer <br>(Figma, Zeplin, Adobe XD)</div>
+    
+</div>
+
+
+<footer>2020-2022 BUDAN. All rights reserved. <a href="#" style="color: blue;">CONTACT ME <a href="#"><i class="fab fa-instagram"></i></a></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-github"></i></a> <br>
+    If you have any questions or suggestions about my portflio, please feel free to submit them . Thank you </footer>
+
+
+
+-->
+
+    <script >
+
+const menu = document.querySelector(".menu");
+const list = document.querySelector(".list");
+const nav = document.querySelector("nav");
+const cancel = document.querySelector(".cancel");
+
+
+menu.addEventListener("click", function(){
+    
+menu.style.display = "none";
+cancel.style.display ="block";
+nav.style.height = "220px";
+list.style.display = "block";
+nav.style.transition = "ease-in-out 2s";
+} )
+
+cancel.addEventListener("click", function(){
+menu.style.display = "block";
+cancel.style.display ="none";
+nav.style.height = "50px";
+list.style.display = "none";
+
+})
+
+
+
+
+
+    </script>
+    
+    
 
 </body>
 </html>
